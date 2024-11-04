@@ -9,6 +9,7 @@ import {
   SuperQuality
 } from "./sections"
 import './App.css'
+import Nav from "./components/Nav"
 
 function App() {
   
@@ -16,7 +17,7 @@ function App() {
   return (
     <>
       <main className='relative'>
-        nav
+        <Nav/>
         <section className='xl:padding-1 wide:padding-r padding-b'>
           <Hero/>
         </section>
